@@ -1,5 +1,5 @@
 /* Sai Ranganathan 
-creates the QuestionGame object which sets up the GUI and uses a QuestionTreeOne object*/
+creates the WordGuesser object which sets up the GUI and uses a QuestionTreeOne object*/
 
 import java.awt.*; //for dimensions
 import java.awt.event.*; //for events 
@@ -7,7 +7,7 @@ import javax.swing.*; //for guis components
 import java.io.*;
 import java.util.*;
 
-public class QuestionGame implements ActionListener { 
+public class WordGuesser implements ActionListener { 
      public static final String DICTIONARY = "dictionary.txt"; 
      private JFrame frame;
      private JFrame frame2;
@@ -18,10 +18,10 @@ public class QuestionGame implements ActionListener {
      int x = 0;
      
    public static void main(String[] args)  {
-         QuestionGame myFrame = new QuestionGame();
+         WordGuesser myFrame = new WordGuesser();
    }
        
-   public QuestionGame() { 
+   public WordGuesser() { 
       button = false;
       
       frame = new JFrame();

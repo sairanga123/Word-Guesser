@@ -23,6 +23,7 @@ public class QuestionTreeOne implements ActionListener {
    private QuestionNode object;
    private JFrame frame5;
    private JFrame frame6;
+   private JFrame frame7;
    private JButton enter;
    private int x;
    private String question2;
@@ -217,7 +218,7 @@ public class QuestionTreeOne implements ActionListener {
                }
                
                frame6.setVisible(false);
-               JFrame frame7 = new JFrame();
+               frame7 = new JFrame();
                frame7.setSize(new Dimension(410,700));
                frame7.setTitle("Word Guesser");
                frame7.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -241,18 +242,18 @@ public class QuestionTreeOne implements ActionListener {
                again = true;
                System.out.println(again);
                
-               JFrame frame7 = new JFrame();
-               frame7.setSize(new Dimension(410,700));
-               frame7.setTitle("Word Guesser");
-               frame7.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-               frame7.setResizable(true);
-               frame7.setVisible(true);
-               frame7.setLayout(new FlowLayout());
+               JFrame frame8 = new JFrame();
+               frame8.setSize(new Dimension(410,700));
+               frame8.setTitle("Word Guesser");
+               frame8.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+               frame8.setResizable(true);
+               frame8.setVisible(true);
+               frame8.setLayout(new FlowLayout());
                
                JLabel think2 = new JLabel("Please think of an object for me to guess");
-               frame7.add(think2);
+               frame8.add(think2);
                JButton cont3 = new JButton("Click to continue");
-               frame7.add(cont3);
+               frame8.add(cont3);
         }
               
    } 
